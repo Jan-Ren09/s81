@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Brawler", serif;
+}
+
+
+/* Dark Red
+
+Hex Code: #C91A2A
+RGB Values: RGB(201, 26, 42)
+Dark Grey
+
+Hex Code: #1C1C1C
+RGB Values: RGB(28, 28, 28)
+Light Grey
+
+Hex Code: #E7E7E7
+RGB Values: RGB(231, 231, 231) */
+
+body {
+    background-color: black;
+}
+
+#navbar nav.navbar {
+    background-color: rgba(28, 28, 28, 0.7) !important;
+}
+
+#navbar nav.navbar div a {
+    color: white !important;
+}
+
+#introduction {
+    background-image: url("./images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+
+#introduction div.row {
+    background-color: rgba(28, 28, 28, 0.7);
+    color: white;
+}
+
+#featured img {
+    min-height: 250px;
+    max-width:max-content;
+}
+
+.card {
+    background-color: rgba(28, 28, 28, 1);
+    
+}
+
+.card-body h5 {
+    color: rgb(231, 231, 231);
+}
+
+.card-body p {
+    color: rgb(231, 231, 231);
+}
+
+.card-body a {
+    background-color: rgb(201, 26, 42);
+}
+
+#categories-section h3 {
+    color: rgb(201, 26, 42);
+}
+
+#categories-section h6 {
+    color: white;
+}
+
+#categories .accordion button {
+    background-color: rgb(28, 28, 28) !important;
+    color: white;
+}
+
+#resources button {
+    background-color: rgb(201, 26, 42);
+}
+
+
+#about{
+    color: white;
+}
+
+
+#mission h3{
+    color: rgb(201, 26, 42);
+}
+
+
+#contact button{
+    background-color: rgb(201, 26, 42);;
+}

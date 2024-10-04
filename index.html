@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota Skills Arena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- navebar start -->
+    <section id="navbar" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home">Dota2 Skills Arena</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#categories-section">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- navbbar end -->
+<!-- home start -->
+<section id="home">
+    <section id="introduction" class="align-content-center">
+        <div class="text-center p-5 container-fluid ">
+            <div class="row p-5">
+                <h1>Welcome to Dota2 Skills Arena!</h1>
+                <h4>Ready to elevate your Dota 2 gameplay? Whether you're a newcomer learning the basics or a seasoned player refining your strategies, Dota 2 Academy is your go-to resource. Our mission is to equip you with the knowledge and skills you need to dominate the battlefield!</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="featured" class="container-fluid py-5">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-md-4 m-2 shadow bordered rounded" style="width: 18rem;">
+                <img src="./images/aba.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hero Guides</h5>
+                    <p class="card-text">Comprehensive guides for each hero, including abilities, recommended items, and playstyles.</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-4 m-2 shadow" style="width: 18rem;">
+            <img src="./images/dr.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Item Builds</h5>
+                <p class="card-text">Suggestions for item builds tailored to specific heroes and roles.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+            </div>
+            <div class="card col-12 col-md-4 m-2 shadow" style="width: 18rem;">
+                <img src="./images/map.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gameplay Strategies</h5>
+                    <p class="card-text">In-depth articles on team compositions, map control, and objective prioritization.</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<!-- home end -->
+
+<!-- category start -->
+<section id="categories-section" class="py-5">
+    <h3 class="text-center">Rank Category</h3>
+    <h6 class="text-center">We promise to provide a guide that meets you at your skill level</h6>
+    <section id="categories"  class="container">
+        <div class="row">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                        Herald
+                    </button>
+                  </h2>
+                  <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">This is the starting rank for new players. Herald players are still learning the basics of the game, including hero mechanics, item builds, and fundamental strategies.</div>
+                    <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                        Guardian
+                      </button>
+                    </h2>
+                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Players in this rank have a basic understanding of the game and are starting to grasp teamwork and roles. They are often still working on improving their mechanics and decision-making.</div>
+                      <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading3">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                        Crusader
+                      </button>
+                    </h2>
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Crusader players show a better grasp of game mechanics and team coordination. They begin to understand hero matchups and more advanced strategies but still have room for growth.</div>
+                      <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                    </div>
+                  </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                        Archon 
+                    </button>
+                  </h2>
+                  <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Players at the Archon rank have a solid understanding of game fundamentals and can execute basic strategies effectively. They may still struggle with consistency and advanced tactics.</div>
+                    <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                        Legend
+                    </button>
+                  </h2>
+                  <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Legend players demonstrate good game knowledge and often have a decent grasp of positioning, map awareness, and teamwork. They are capable of playing multiple roles and heroes effectively.</div>
+                    <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading6">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                        Ancient
+                      </button>
+                    </h2>
+                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Ancient players are skilled and understand advanced mechanics, strategies, and hero synergies. They can adapt to various game situations and contribute significantly to team success.</div>
+                      <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading7">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                        Divine 
+                      </button>
+                    </h2>
+                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Divine players are highly skilled and have excellent game knowledge, including advanced strategies and in-depth understanding of hero matchups. They can consistently perform well in high-stakes situations.</div>
+                      <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading8">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                        Immortal
+                      </button>
+                    </h2>
+                    <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">This is the highest rank in Dota 2, reserved for the top players in the game. Immortal players are elite competitors who demonstrate exceptional skills, strategic understanding, and teamwork. This rank includes the top 0.01% of players and features the leaderboard for professional players.</div>
+                      <button type="button" class="btn btn-outline-dark ms-5">Get started</button>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <section id="resources">
+        <div class="container">
+            <div class="dropdown text-end">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Youtube Tutorials</a></li>
+                  <li><a class="dropdown-item" href="#">Game articles</a></li>
+                  <li><a class="dropdown-item" href="#">Latest Patch</a></li>
+                </ul>
+              </div>
+        </div>
+    </section>
+</section>
+<!-- category end -->
+
+<!-- about start -->
+<section id="about">
+    <section id="mission" class="container text-center my-5 py-5">
+        <h3>The Goal</h3>
+        <h6>Our primary goal is to create an inclusive and engaging platform that empowers players of all skill levels to enhance their Dota 2 gameplay through comprehensive resources, community support, and expert guidance. We aim to foster a vibrant learning environment where users can access in-depth hero guides, strategic tutorials, and interactive tools, while connecting with fellow enthusiasts to share knowledge and experiences. Ultimately, we aspire to help every player reach their full potential, fostering a love for the game and a commitment to continuous improvement.</h6>
+    </section>
+    <section id="contact" class="container py-5">
+        <div class="row">
+            <div class="col">
+                <h3>Contact us</h3>
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputMessage" class="col-sm-2 col-form-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    Send me an Email
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+</section>
+<!-- about end -->
+
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
